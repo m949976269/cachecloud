@@ -1,3 +1,5 @@
+### CacheCloud团队于2017年3月出版实体书《Redis开发与运维》，[更多详情请见](#cc10)
+
 ## <a name="index"/>目录&nbsp;&nbsp;(具体细节[wiki文档](https://github.com/sohutv/cachecloud/wiki "Cachecloud Wiki")、[博客](http://cachecloud.github.io/ "Cachecloud page")、QQ群：534429768)
 * [一、CacheCloud是做什么的](#cc1)
 * [二、CacheCloud提供哪些功能](#cc2)
@@ -13,6 +15,7 @@
     * [5.迁移工具](#cc7)
 * [八、CacheCloud开发计划TODO LIST](#cc8)
 * [九、CacheCloud已知用户](#cc9)
+* [十、Redis开发与运维图书](#cc10)
 
 <a name="cc1"/>
 
@@ -20,7 +23,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CacheCloud提供一个Redis云管理平台：实现多种类型(**Redis Standalone**、**Redis Sentinel**、**Redis Cluster**)自动部署、解决Redis实例碎片化现象、提供完善统计、监控、运维功能、减少运维成本和误操作，提高机器的利用率，提供灵活的伸缩性，提供方便的接入客户端。
 
-![](http://i3.itc.cn/20160125/3084_5393fb5d_7350_f249_9e37_c0d06d00b908_1.png)
+![](http://i0.itc.cn/20170624/3084_753fa711_4d1d_7f51_7405_07723c1e43f6_1.png)
 
 <a name="cc2"/>
 
@@ -31,7 +34,7 @@
 + **Failover：**	支持哨兵,集群的高可用模式。
 + **伸缩：**	    提供完善的垂直和水平在线伸缩功能。
 + **完善运维：**    提供自动运维和简化运维操作功能，避免纯手工运维出错。
-+ **方便的客户端：**方便快捷的客户端接入。
++ **方便的客户端**  方便快捷的客户端接入。
 + **元数据管理：**    提供机器、应用、实例、用户信息管理。
 + **流程化：**      提供申请，运维，伸缩，修改等完善的处理流程
 + **一键导入：**      [一键导入已经存在Redis](http://cachecloud.github.io/2016/04/17/%E5%B7%B2%E5%AD%98%E5%9C%A8Redis%E6%8E%A5%E5%85%A5CacheCloud/)
@@ -83,10 +86,10 @@
 
 ## 五、CacheCloud在搜狐的规模
 
-+ 每天200+亿次命令调用
++ 每天500+亿次命令调用
 + 2T+的内存空间
-+ 1100+个Redis实例
-+ 150+台机器
++ 1600+个Redis实例
++ 200+台机器
 
 <a name="cc6"/>
 
@@ -124,13 +127,30 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;除此之外，还有天津联怡科技有限公司、瑞友科技、厦门美好出行物联网技术有限公司、北京九瑞网络科技有限公司、深圳市深软信息技术有限公司、欧乐在线科技有限公司、慧科教育、上海仁画信息股份有限公司等。
 
+<a name="cc10"/>
 
-## 十、支持与帮助
+## 十、图书
+由CacheCloud团队撰写的实体书《Redis开发与运维》(机械工业出版)已在各大网店售卖，本书包含了CacheCloud团队在Redis规模化开发运维大量经验，以及Cachecloud更为系统的介绍，[目录介绍和购买地址](https://cachecloud.github.io/2016/10/24/Redis3%E5%BC%80%E5%8F%91%E8%BF%90%E7%BB%B4%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5-%E7%9B%AE%E5%BD%95/)，欢迎大家指教和购买。
 
-如果你觉得CacheCloud对你有帮助，欢迎Star，也欢迎打赏 ^_^ ，我们会不定期公布支持我的好朋友名单。
+### 相关样章
 
-微信赞赏二维码：
+1.[Redis架构之防雪崩设计：网站不宕机背后的兵法](https://mp.weixin.qq.com/s/TBCEwLVAXdsTszRVpXhVug)
 
-![](http://i3.itc.cn/20170316/3084_f2237e79_60f1_0d34_e594_38a75ca709a3_1.png)
+2.[Redis的内存优化](https://cachecloud.github.io/2017/02/16/Redis%E5%86%85%E5%AD%98%E4%BC%98%E5%8C%96/)
 
+3.[Redis的Linux系统优化](https://cachecloud.github.io/2017/02/16/Redis%E7%9A%84Linux%E7%B3%BB%E7%BB%9F%E4%BC%98%E5%8C%96/)
+
+4.[Redis客户端常见异常分析](https://cachecloud.github.io/2017/02/20/Redis%E7%83%AD%E7%82%B9key%E5%AF%BB%E6%89%BE%E4%B8%8E%E4%BC%98%E5%8C%96/)
+
+5.[Redis热点key寻找与优化](https://cachecloud.github.io/2017/02/20/Redis%E7%83%AD%E7%82%B9key%E5%AF%BB%E6%89%BE%E4%B8%8E%E4%BC%98%E5%8C%96/)
+
+6.[Redis无限全量复制问题分析与优化](https://cachecloud.github.io/2016/11/24/%E5%85%A8%E9%87%8F%E5%A4%8D%E5%88%B6%E9%97%AE%E9%A2%98/)
+
+![](http://i0.itc.cn/20170527/3084_cfcdad5a_0310_c17e_f80b_064afb296b75_1.jpeg)
+
+
+
+## 十一、支持与帮助
+
+如果你觉得CacheCloud对你有帮助，欢迎Star。
  
